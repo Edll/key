@@ -1,3 +1,5 @@
+package de.edlly.key;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 import de.edlly.key.entities.Posts;
 import org.junit.jupiter.api.Test;
@@ -17,6 +19,6 @@ public class PostsDeserializeTest {
         File file = new File(resource.getFile());
         Posts posts = objectMapper.readValue(file, Posts.class);
         assertNotNull(posts);
-        assertNotNull(posts.getFirst().getPostContent().getRendered());
+        assertNotNull(posts.get(0).getPostContent().getRendered());
     }
 }

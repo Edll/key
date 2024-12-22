@@ -1,0 +1,273 @@
+		<div data-elementor-type="wp-post" data-elementor-id="30938" class="elementor elementor-30938" data-elementor-post-type="post">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-477eeac5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="477eeac5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5fcf95ad" data-id="5fcf95ad" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-c1a09c6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c1a09c6" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-984bb38" data-id="984bb38" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-917f9dc elementor-widget elementor-widget-heading" data-id="917f9dc" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Keine Zeit, den ganzen Blogartikel zu lesen? ⏰</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9e21839 elementor-widget elementor-widget-text-editor" data-id="9e21839" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="font-weight: 400;">Teste doch kostenlos unseren Lehrgang zur </span><b>Fachkraft für Selbst- und Zeitmanagement (IHK)</b><span style="font-weight: 400;"> und starte direkt durch!</span></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-3d9b88c elementor-align-left elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="3d9b88c" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://app.thekey.academy/register?email=" target="_blank">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Kostenlos testen</span>
+					</span>
+					</a>
+				</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-f4104aa elementor-align-left elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="f4104aa" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://www.thekey.academy/onlinelehrgang-selbst-zeitmanagement-ihk/" target="_blank">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Zum Lehrgang</span>
+					</span>
+					</a>
+				</div>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-73dadeb" data-id="73dadeb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4f63a7d elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="4f63a7d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img fetchpriority="high" decoding="async" width="500" height="500" src="https://www.thekey.academy/wp-content/uploads/SZM.png" class="attachment-large size-large wp-image-24205" alt="Icon Fachkraft für Selbst- und Zeitmanagement (IHK)" srcset="https://www.thekey.academy/wp-content/uploads/SZM.png 500w, https://www.thekey.academy/wp-content/uploads/SZM-300x300.png 300w, https://www.thekey.academy/wp-content/uploads/SZM-150x150.png 150w, https://www.thekey.academy/wp-content/uploads/SZM-24x24.png 24w, https://www.thekey.academy/wp-content/uploads/SZM-36x36.png 36w, https://www.thekey.academy/wp-content/uploads/SZM-48x48.png 48w" sizes="(max-width: 500px) 100vw, 500px" />													</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-55201ac1 elementor-widget elementor-widget-heading" data-id="55201ac1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Tipp 1: Der Wochenplan: Plane Deine Adventszeit im Voraus</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e174809 elementor-widget elementor-widget-text-editor" data-id="e174809" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="font-weight: 400;">Die Weihnachtszeit bringt viele Aufgaben mit sich, und oft gerät man ins Schleudern, weil alles auf einmal erledigt werden soll. Mit einem klaren Wochenplan kannst Du die Hektik reduzieren und Deine To-dos realistisch verteilen. </span></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-abb8175 elementor-widget elementor-widget-heading" data-id="abb8175" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Wie der Wochenplan Ordnung ins Chaos bringt</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c4e6412 elementor-widget elementor-widget-text-editor" data-id="c4e6412" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Ein Wochenplan hilft Dir, alle Aufgaben übersichtlich zu organisieren und sie so zu verteilen, dass Du nicht jeden Tag unter Zeitdruck stehst. Er gibt Dir die Kontrolle zurück und sorgt dafür, dass nichts Wichtiges vergessen wird.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-bee4585 elementor-widget elementor-widget-heading" data-id="bee4585" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Praktische Anwendung</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ff5e301 elementor-widget elementor-widget-text-editor" data-id="ff5e301" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<ol><li aria-level="1">Schreibe alle To-dos auf, die in den nächsten Wochen anstehen.</li><li aria-level="1">Ordne die Aufgaben den Tagen zu, an denen Du realistisch Zeit hast.</li><li aria-level="1">Plane bewusst Pufferzeiten ein, um unerwartete Aufgaben oder kurze Pausen zu berücksichtigen.</li></ol>						</div>
+				</div>
+				<div class="elementor-element elementor-element-f175487 elementor-widget elementor-widget-heading" data-id="f175487" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Warum ist das so effektiv?</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-27948f4 elementor-widget elementor-widget-text-editor" data-id="27948f4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Ein strukturierter Plan bringt Ruhe in die oft chaotische Vorweihnachtszeit. Du siehst auf einen Blick, was wann ansteht und kannst stressfrei arbeiten, ohne das Gefühl, alles gleichzeitig erledigen zu müssen.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-16730701 elementor-widget elementor-widget-heading" data-id="16730701" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Tipp 2: Die Eisenhower-Matrix: Priorisiere Deine Aufgaben</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a47e78b elementor-widget elementor-widget-text-editor" data-id="a47e78b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Gerade in der besinnlichsten Zeit des Jahres scheint die To-do-Liste endlos: Geschenke einkaufen, Plätzchen backen, Weihnachtskarten schreiben und das Zuhause dekorieren. Aber was solltest Du zuerst erledigen, was kannst Du später angehen, und was kannst Du delegieren? Die <b>Eisenhower-Matrix </b>ist ein einfaches, aber effektives Tool, das Dir hilft, Deine Aufgaben nach Dringlichkeit und Wichtigkeit zu priorisieren.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-739a264 elementor-widget elementor-widget-heading" data-id="739a264" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Wie funktioniert die Eisenhower-Matrix?</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-911fbed elementor-widget elementor-widget-text-editor" data-id="911fbed" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="font-weight: 400;">Stell Dir vier Felder vor, in die Du Deine Aufgaben einteilst:</span></p><ul><li style="font-weight: 400;" aria-level="1"><b>Wichtig und dringend</b><span style="font-weight: 400;">: Erledige sofort (z.B. Geschenk bestellen, wenn die Lieferzeit knapp wird)</span></li><li style="font-weight: 400;" aria-level="1"><b>Wichtig, aber nicht dringend</b><span style="font-weight: 400;">: Plane ein (z.B. Deko für den Baum auswählen)</span></li><li style="font-weight: 400;" aria-level="1"><b>Dringend, aber nicht wichtig</b><span style="font-weight: 400;">: Delegiere, wenn möglich (z.B. Besorgungen, die andere übernehmen können)</span></li><li style="font-weight: 400;" aria-level="1"><b>Nicht dringend und nicht wichtig</b><span>: Streiche komplett (z.B. perfektes Instagram-Bild vom Baum posten)</span></li></ul>						</div>
+				</div>
+				<div class="elementor-element elementor-element-bef55e8 elementor-widget elementor-widget-heading" data-id="bef55e8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Praktische Anwendung</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a20b95e elementor-widget elementor-widget-text-editor" data-id="a20b95e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<ul><li aria-level="1">Schreibe alle Deine To-dos auf.</li><li aria-level="1">Ordne jede Aufgabe in eines der vier Felder ein.</li><li aria-level="1">Handle nach Plan: Sofort, später, delegieren oder streichen.</li></ul>						</div>
+				</div>
+				<div class="elementor-element elementor-element-db67c58 elementor-widget elementor-widget-heading" data-id="db67c58" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Warum funktioniert das?</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-26b68fc elementor-widget elementor-widget-text-editor" data-id="26b68fc" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Die Eisenhower-Matrix gibt Dir eine klare Struktur und verhindert, dass Du Deine Zeit mit weniger wichtigen Aufgaben verschwendest. So hast Du den Kopf frei für die wirklich schönen Dinge der Weihnachtszeit.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-9a1c010 elementor-widget elementor-widget-image" data-id="9a1c010" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img decoding="async" width="916" height="1024" src="https://www.thekey.academy/wp-content/uploads/PZM_Grafik_03_03_02_Eisenhower-Matrix-e1733149319987-916x1024.png" class="attachment-large size-large wp-image-30946" alt="pzm grafik eisenhower matrix" srcset="https://www.thekey.academy/wp-content/uploads/PZM_Grafik_03_03_02_Eisenhower-Matrix-e1733149319987-916x1024.png 916w, https://www.thekey.academy/wp-content/uploads/PZM_Grafik_03_03_02_Eisenhower-Matrix-e1733149319987-268x300.png 268w, https://www.thekey.academy/wp-content/uploads/PZM_Grafik_03_03_02_Eisenhower-Matrix-e1733149319987-768x858.png 768w, https://www.thekey.academy/wp-content/uploads/PZM_Grafik_03_03_02_Eisenhower-Matrix-e1733149319987-21x24.png 21w, https://www.thekey.academy/wp-content/uploads/PZM_Grafik_03_03_02_Eisenhower-Matrix-e1733149319987-32x36.png 32w, https://www.thekey.academy/wp-content/uploads/PZM_Grafik_03_03_02_Eisenhower-Matrix-e1733149319987-43x48.png 43w, https://www.thekey.academy/wp-content/uploads/PZM_Grafik_03_03_02_Eisenhower-Matrix-e1733149319987.png 1251w" sizes="(max-width: 916px) 100vw, 916px" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-acca52c elementor-widget elementor-widget-heading" data-id="acca52c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Tipp 3: Die 5-Minuten-Regel: Erledige kleine Aufgaben sofort</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1bdae6e elementor-widget elementor-widget-text-editor" data-id="1bdae6e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Oft stapeln sich kleine Aufgaben, die eigentlich schnell erledigt wären, zu einem riesigen Berg. Der Grund: Wir schieben sie vor uns her, weil sie uns im Moment unwichtig erscheinen. Genau hier setzt die <b>5-Minuten-Regel</b> an. Sie hilft Dir, kleinere Aufgaben direkt abzuhaken und so Zeit und Energie für größere Projekte freizuhalten.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-28bb968 elementor-widget elementor-widget-heading" data-id="28bb968" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Was ist die 5-Minuten-Regel?</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d6da974 elementor-widget elementor-widget-text-editor" data-id="d6da974" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Der Ansatz ist simpel: Wenn eine Aufgabe weniger als fünf Minuten dauert, erledige sie sofort. Ob es darum geht, eine kurze E-Mail zu schreiben, Geschenkideen für die Familie zu notieren oder eine kurze Besorgung zu machen – diese kleinen To-dos verschwinden damit direkt aus Deinem Kopf und von Deiner Liste.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-6489dc1 elementor-widget elementor-widget-heading" data-id="6489dc1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Praktische Anwendung</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a0325f8 elementor-widget elementor-widget-text-editor" data-id="a0325f8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<ul><li aria-level="1">Halte Deine To-do-Liste griffbereit und prüfe sie regelmäßig.</li><li aria-level="1">Identifiziere kleine Aufgaben, die Du in unter fünf Minuten erledigen kannst.</li><li aria-level="1">Setze sie sofort um, anstatt sie auf später zu verschieben.</li></ul>						</div>
+				</div>
+				<div class="elementor-element elementor-element-d1ef5a3 elementor-widget elementor-widget-heading" data-id="d1ef5a3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Warum ist das so hilfreich?</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a72f1ef elementor-widget elementor-widget-text-editor" data-id="a72f1ef" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Die 5-Minuten-Regel verhindert, dass sich kleine Aufgaben ansammeln und irgendwann überwältigend wirken. Gleichzeitig gibt sie Dir ein schnelles Erfolgserlebnis, das Dich motiviert, auch größere Aufgaben anzugehen. Besonders in der hektischen Adventszeit sorgt sie für Struktur und ein gutes Gefühl, auch viele Kleinigkeiten im Griff zu haben.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-59e4e35 elementor-widget elementor-widget-heading" data-id="59e4e35" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Bonus-Tipps für eine stressfreie Weihnachtszeit</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e9626e0 elementor-widget elementor-widget-text-editor" data-id="e9626e0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Neben der Priorisierung, Planung und effizienten Erledigung kleiner Aufgaben gibt es weitere Tricks, um die Adventszeit entspannter zu gestalten. Diese Bonus-Tipps helfen Dir, Deine To-do-Liste überschaubar zu halten und die Feiertage wirklich zu genießen.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-64e2858 elementor-widget elementor-widget-heading" data-id="64e2858" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">1️⃣ Digital planen: Nutze Apps als Helfer im Alltag</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e9b2938 elementor-widget elementor-widget-text-editor" data-id="e9b2938" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Nutze digitale Tools wie To-do-Listen-Apps oder Kalender-Apps, um Deine Aufgaben übersichtlich zu organisieren. Viele dieser Tools bieten Erinnerungsfunktionen, die Dich rechtzeitig an Deadlines oder geplante Einkäufe erinnern. Beispiele: Trello oder die Erinnerungen-App auf Deinem Smartphone. 🗓️</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-245e636 elementor-widget elementor-widget-heading" data-id="245e636" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">2️⃣ Realistisch bleiben: Lege Perfektionismus ab</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c521848 elementor-widget elementor-widget-text-editor" data-id="c521848" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Nicht alles muss perfekt sein. Statt Dich unter Druck zu setzen, das „perfekte“ Weihnachtsfest zu gestalten, frage Dich, was wirklich zählt. Eine herzliche Atmosphäre und entspannte gemeinsame Zeit sind oft wichtiger als das perfekte Drei-Gänge-Menü. ❤️</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-c4f1c4c elementor-widget elementor-widget-heading" data-id="c4f1c4c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">3️⃣ Zeit für Dich: Schaffe kleine Ruhe-Inseln</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4851217 elementor-widget elementor-widget-text-editor" data-id="4851217" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Plane bewusst Zeit nur für Dich ein – ein Spaziergang im Winterwald, eine Tasse Tee bei Kerzenschein oder ein gutes Buch können wahre Wunder wirken. Solche kleinen Auszeiten geben Dir Energie für die herausfordernden Momente. 🍵</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-a5085ee elementor-widget elementor-widget-heading" data-id="a5085ee" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">4️⃣ Aufgaben verteilen: Lass andere mithelfen</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1e3ca88 elementor-widget elementor-widget-text-editor" data-id="1e3ca88" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Niemand sagt, dass Du alles alleine machen musst. Bitte Deine Familie oder Freund:innen, bestimmte Aufgaben zu übernehmen, wie das Einkaufen von Lebensmitteln oder das Einpacken von Geschenken. Gemeinsam geht es schneller und macht oft sogar mehr Spaß. 🫱🏼‍🫲🏾</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-6aaca25 elementor-widget elementor-widget-text-editor" data-id="6aaca25" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Die Weihnachtszeit muss keine Stresszeit sein. Mit den richtigen Strategien kannst Du Dir den Advent entspannter gestalten. Ergänzt durch praktische Tools, realistische Ziele und kleine Auszeiten wird aus dem hektischen Jahresende eine besinnliche Zeit, die Dir Raum für die wirklich wichtigen Dinge lässt.</p><p>Nimm Dir Zeit für Dich und Deine Liebsten, genieße die kleinen Momente und lass Dich nicht von Perfektionismus treiben. Weihnachten ist nicht nur ein Fest – es ist eine Chance, zur Ruhe zu kommen, zu reflektieren und Kraft für das neue Jahr zu tanken. Wir wünschen Dir von Herzen eine entspannte, freudvolle und besondere Weihnachtszeit. ✨</p>						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-146cc65 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="146cc65" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-11f9844" data-id="11f9844" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-998fe9c elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="998fe9c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img decoding="async" width="1024" height="1024" src="https://www.thekey.academy/wp-content/uploads/1-1_SZM-1024x1024.png" class="attachment-large size-large wp-image-8519" alt="Lehrgang Fachkraft für Selbst- und Zeitmanagement (IHK)" srcset="https://www.thekey.academy/wp-content/uploads/1-1_SZM-1024x1024.png 1024w, https://www.thekey.academy/wp-content/uploads/1-1_SZM-300x300.png 300w, https://www.thekey.academy/wp-content/uploads/1-1_SZM-150x150.png 150w, https://www.thekey.academy/wp-content/uploads/1-1_SZM-768x768.png 768w, https://www.thekey.academy/wp-content/uploads/1-1_SZM-24x24.png 24w, https://www.thekey.academy/wp-content/uploads/1-1_SZM-36x36.png 36w, https://www.thekey.academy/wp-content/uploads/1-1_SZM-48x48.png 48w, https://www.thekey.academy/wp-content/uploads/1-1_SZM.png 1080w" sizes="(max-width: 1024px) 100vw, 1024px" />													</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1687db5" data-id="1687db5" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-6e9220f elementor-widget elementor-widget-heading" data-id="6e9220f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Starte stressfrei ins neue Jahr!</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c3483c5 elementor-widget elementor-widget-text-editor" data-id="c3483c5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="font-weight: 400;">Entdecke weitere effektive Methoden, die Dir dabei helfen, Deine Zeit optimal zu managen. Unser Lehrgang </span><b>Fachkraft für Selbst- und Zeitmanagement (IHK)</b><span style="font-weight: 400;"> bietet Dir praxisnahe Tipps und Tools, die Du direkt im Alltag umsetzen kannst. </span><span style="font-weight: 400;">⏳</span></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-2789e1a elementor-align-left elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="2789e1a" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://app.thekey.academy/register?email=" target="_blank">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Kostenlos testen</span>
+					</span>
+					</a>
+				</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-440c300 elementor-align-left elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="440c300" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://www.thekey.academy/onlinelehrgang-selbst-zeitmanagement-ihk/" target="_blank">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Zum Lehrgang</span>
+					</span>
+					</a>
+				</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4e0c9b6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4e0c9b6" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6d8b7e3" data-id="6d8b7e3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-7fef64b elementor-author-box--layout-image-left elementor-author-box--align-left elementor-widget elementor-widget-author-box" data-id="7fef64b" data-element_type="widget" data-widget_type="author-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-author-box">
+			
+			<div class="elementor-author-box__text">
+									<div >
+						<div class="elementor-author-box__name">
+							Magdalena						</div>
+					</div>
+				
+									<div class="elementor-author-box__bio">
+						<p>SEO Text Creative</p>
+					</div>
+				
+							</div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		
