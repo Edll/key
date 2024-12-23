@@ -14,6 +14,7 @@
         <module>app</module>
         <module>entities</module>
         <module>services</module>
+        <module>client-api</module>
     </modules>
 
 </project>

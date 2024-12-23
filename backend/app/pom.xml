@@ -56,7 +56,16 @@
 			<groupId>de.edlly.key</groupId>
 			<artifactId>services</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-			<scope>compile</scope>
+
+		</dependency>
+		<dependency>
+			<groupId>de.edlly.key</groupId>
+			<artifactId>client-api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 	</dependencies>
 	<build>
