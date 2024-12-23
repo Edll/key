@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicReference;
@@ -39,7 +40,7 @@ class PostProcessorTest {
         post.setId(1L);
         WordMap wordMap = new WordMap();
         wordMap.setPost(post);
-        PostProcessor _postProcessor = new PostProcessor(new WordCountMapperStore() {
+        PostProcessor _postProcessor = new PostProcessor(new WordCountMapperStore(new ArrayList<>()) {
             @Override
             public Optional<WordMap> getWordMap(Long postId) {
                 return Optional.of(wordMap);
@@ -64,7 +65,7 @@ class PostProcessorTest {
 
         AtomicReference<WordMap> postRef = new AtomicReference<>();
 
-        PostProcessor _postProcessor = new PostProcessor(new WordCountMapperStore() {
+        PostProcessor _postProcessor = new PostProcessor(new WordCountMapperStore(new ArrayList<>()) {
             @Override
             public void addWordMap(WordMap wordMap) {
                 postRef.set(wordMap);
