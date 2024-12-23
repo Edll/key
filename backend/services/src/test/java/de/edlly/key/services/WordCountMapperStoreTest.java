@@ -44,7 +44,7 @@ class WordCountMapperStoreTest {
         post.setId(1L);
         WordMap wordMap = new WordMap();
         wordMap.setPost(post);
-        wordMap.getWords().put(1, "and");
+        wordMap.getWords().put("and", 1);
         return wordMap;
     }
 

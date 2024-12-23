@@ -10,16 +10,16 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class PostsCleanerTest {
+class PostHtmlCleanerTest {
 
     @Test
     void cleanPosts() throws Exception {
-        PostsCleaner postsCleaner = new PostsCleaner();
+        PostHtmlCleaner postHtmlCleaner = new PostHtmlCleaner();
         URL resource = getClass().getResource("/firstpostContent.txt");
         assertNotNull(resource);
         String strings = Files.readString(Paths.get(resource.toURI()), StandardCharsets.UTF_8);
 
-        Optional<String> actual = postsCleaner.cleanPostString(strings);
+        Optional<String> actual = postHtmlCleaner.cleanPostString(strings);
 
         assertTrue(actual.isPresent());
         assertNotNull(actual.get());

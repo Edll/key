@@ -7,7 +7,7 @@ import org.jsoup.Jsoup;
 import java.util.Optional;
 
 @Slf4j
-public class PostsCleaner {
+public class PostHtmlCleaner {
 
     /**
      * remove all none Word content

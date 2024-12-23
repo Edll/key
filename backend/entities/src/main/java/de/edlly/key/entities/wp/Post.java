@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+import java.util.Date;
+
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 @Getter
@@ -17,5 +19,11 @@ public class Post {
 
     @JsonProperty("content")
     private PostContent postContent;
+
+    @JsonProperty("modified")
+    private Date modified;
+
+    @JsonProperty("date")
+    private Date date;
 
 }

@@ -11,5 +11,5 @@ import java.util.Map;
 @Setter
 public class WordMap {
     private Post post;
-    private Map<Integer, String> words = new HashMap<>();
+    private Map<String, Integer> words = new HashMap<>();
 }
