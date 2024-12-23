@@ -9,6 +9,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>libary</module>
        <module>parent</module>
         <module>app</module>
         <module>entities</module>

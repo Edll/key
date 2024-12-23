@@ -1,7 +1,5 @@
 
-package de.edlly.key.entities;
-
-import javax.annotation.processing.Generated;
+package de.edlly.key.entities.wp;
 
 import com.fasterxml.jackson.annotation.*;
 import lombok.Getter;

@@ -1,9 +1,9 @@
-package de.edlly.key;
+package de.edlly.key.services;
 
 
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
-import de.edlly.key.entities.Post;
+import de.edlly.key.entities.wp.Post;
 import org.springframework.stereotype.Component;
 
 import java.util.stream.Stream;

@@ -1,6 +1,6 @@
-package de.edlly.key;
+package de.edlly.key.libary;
 
-import de.edlly.key.entities.Post;
+import de.edlly.key.entities.wp.Post;
 import lombok.extern.slf4j.Slf4j;
 import org.jsoup.Jsoup;
 

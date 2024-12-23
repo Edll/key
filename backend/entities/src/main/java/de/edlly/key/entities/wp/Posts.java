@@ -1,4 +1,4 @@
-package de.edlly.key.entities;
+package de.edlly.key.entities.wp;
 
 import java.util.ArrayList;
 

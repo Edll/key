@@ -1,7 +1,8 @@
-package de.edlly.key;
+package de.edlly.key.services;
 
-import de.edlly.key.entities.Posts;
+import de.edlly.key.entities.wp.Posts;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
@@ -15,7 +16,11 @@ public class FetchPostsData {
     @Value("${de.edlly.key.wordpress.api.endpoint}")
     private String endpoint;
 
-    private final RestTemplate restTemplate = new RestTemplate();
+    private final RestTemplate restTemplate;
+
+    public FetchPostsData(@Autowired RestTemplate restTemplate) {
+        this.restTemplate = restTemplate;
+    }
 
     public Optional<Posts> getPostsData() {
         try {

@@ -1,4 +1,4 @@
-package de.edlly.key;
+package de.edlly.key.libary;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 public class WordMapper {
 
     public Map<String, Integer> getWordMap(String content) {
-        Map<String, Integer> wordCounts = Stream.of(content)
+        return Stream.of(content)
                 .flatMap(str -> Arrays.stream(str.split("\\p{Punct}| |[0-9]|…|«|»|“|„")))
                 .filter(isNoEmptyString())
                 .filter(isOnlyWord())
@@ -18,7 +18,6 @@ public class WordMapper {
                         i -> 1,
                         Integer::sum)
                 );
-        return wordCounts;
     }
 
     private static Predicate<String> isOnlyWord() {
