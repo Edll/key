@@ -1,14 +1,13 @@
 import {Client} from '@stomp/stompjs';
-import {WebSocket} from 'ws';
-import {WordMapData} from "./WordMapData";
+import {IWordMapData} from "../interfaces/IWordMapData.ts";
 
-export const useWebsocket = (onDataReceive: (data) => void) => {
+export const useWebsocket = (onDataReceive: (data: IWordMapData) => void) => {
 
     const client = new Client({
         brokerURL: 'ws://localhost:18080/wordmap',
         onConnect: () => {
             client.subscribe('/topic/word-map', message => {
-                    onDataReceive(JSON.parse(message.body) as any);
+                    onDataReceive(JSON.parse(message.body) as IWordMapData);
                     console.log(`Received: data`);
                 }
             )
