@@ -9,5 +9,9 @@ import java.util.Map;
 @Setter
 public class ClientWordMap {
     private Long postId;
+    private String postTitle;
+    private String postAuthor;
+    private Long postDate;
+    private String postLink;
     private Map<String, Integer> wordMap;
 }

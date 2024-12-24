@@ -2,6 +2,7 @@ package de.edlly.key.client.websocket;
 
 import de.edlly.key.client.entities.ClientWordMap;
 import de.edlly.key.entities.store.WordMap;
+import de.edlly.key.entities.wp.Post;
 import de.edlly.key.entities.wp.Posts;
 import de.edlly.key.services.FetchPostsData;
 import de.edlly.key.services.PostProcessor;
@@ -42,17 +43,31 @@ public class ClientController {
         }
         Map<Long, ClientWordMap> data = new HashMap<>();
         store.getAllPostIdsInCache().forEach(id -> {
-                    Optional<WordMap> wordMap = store.getWordMap(id);
-                    if (wordMap.isPresent()) {
-
-                        ClientWordMap clientWordMap = new ClientWordMap();
-                        clientWordMap.setPostId(id);
-                        clientWordMap.setWordMap(wordMap.get().getWords());
-
+                    Optional<WordMap> wordMapOpt = store.getWordMap(id);
+                    if (wordMapOpt.isPresent()) {
+                        WordMap storeWordMap = wordMapOpt.get();
+                        ClientWordMap clientWordMap = storeWordMapToClientWordMap(storeWordMap);
                         data.put(id, clientWordMap);
                     }
                 }
         );
         return data;
+    }
+
+    private ClientWordMap storeWordMapToClientWordMap(WordMap storeWordMap) {
+        ClientWordMap clientWordMap = new ClientWordMap();
+        Post post = storeWordMap.getPost();
+        if (post != null) {
+            clientWordMap.setPostId(storeWordMap.getPost().getId());
+            if (post.getDate() != null) {
+                clientWordMap.setPostDate(post.getDate().getTime());
+            }
+            clientWordMap.setPostLink(post.getLink());
+            if (post.getTitle() != null) {
+                clientWordMap.setPostTitle(post.getTitle().getRendered());
+            }
+        }
+        clientWordMap.setWordMap(storeWordMap.getWords());
+        return clientWordMap;
     }
 }

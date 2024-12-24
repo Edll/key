@@ -26,4 +26,10 @@ public class Post {
     @JsonProperty("date")
     private Date date;
 
+    @JsonProperty("link")
+    private String link;
+
+    @JsonProperty("title")
+    private PostTitle title;
+
 }

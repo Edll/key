@@ -37,7 +37,7 @@ public class WordCountMapperStore {
         return Optional.ofNullable(cache.asMap().get(postId));
     }
 
-    public List<Long> getAllPostIdsInCache(Long postId) {
+    public List<Long> getAllPostIdsInCache() {
         return new ArrayList<>(cache.asMap().keySet());
     }
 }
