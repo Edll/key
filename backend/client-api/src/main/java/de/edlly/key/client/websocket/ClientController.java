@@ -67,7 +67,9 @@ public class ClientController {
                 clientWordMap.setPostTitle(post.getTitle().getRendered());
             }
         }
-        clientWordMap.setWordMap(storeWordMap.getWords());
+        Map<String, Integer> words = storeWordMap.getWords();
+        clientWordMap.setWordMap(words);
+        clientWordMap.setWordCount(words.size());
         return clientWordMap;
     }
 }

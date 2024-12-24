@@ -14,4 +14,5 @@ public class ClientWordMap {
     private Long postDate;
     private String postLink;
     private Map<String, Integer> wordMap;
+    private Integer wordCount;
 }

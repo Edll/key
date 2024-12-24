@@ -8,6 +8,7 @@ export interface IWordMapEntry {
         postLink: string
         postAuthor: string
         postDate: number
+        wordCount: number
         wordMap: {
             [word: string]: number
         }
