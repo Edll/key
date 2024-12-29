@@ -17,7 +17,7 @@ export const WordMapDetails = ({wordMapEntry}: Props) => {
             .filter(([, count]) => count > 2)
             .sort(([, a], [, b]) => b - a)
             .slice(0, 10)
-            .reduce((a, [word, count]) => ({...a, [word]: count}), {})
+            .reduce((a, [word, count]) => ({...a, [word]: count}), {} as Record<string, number>)
     }, [wordMapEntry.wordMap]);
 
 
@@ -32,7 +32,7 @@ export const WordMapDetails = ({wordMapEntry}: Props) => {
                     return 0;
                 }
             })
-            .reduce((a, [word, count]) => ({...a, [word]: count}), {});
+            .reduce((a, [word, count]) => ({...a, [word]: count}), {} as Record<string, number>);
     }, [wordMapEntry.wordMap, sortBy]);
 
 
@@ -52,7 +52,7 @@ export const WordMapDetails = ({wordMapEntry}: Props) => {
                 {Object.entries(tableData).map(([word, count]) => (
                     <tr key={word}>
                         <td>{word}</td>
-                        <td>{count}</td>
+                        <td>{count as number}</td>
                     </tr>
                 ))}
                 </tbody>

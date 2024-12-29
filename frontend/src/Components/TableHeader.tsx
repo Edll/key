@@ -17,7 +17,7 @@ export const TableHeader = ({field, sortBy, onSort}: Props) => {
         } else {
             return 0
         }
-    }, [sortBy]);
+    }, [sortBy, field]);
 
 
     const _onSort = () => {

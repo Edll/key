@@ -22,16 +22,16 @@ export const useBubbleChart = (postId: number, data: IBubbleChartData[]) => {
         const color = d3.schemeCategory10;
 
         const items = g.selectAll('g.item')
-            .data(layout, (d: { id: number; }) => d.id)
+            .data(layout, (d: unknown) => (d as { id: number }).id)
             .enter()
             .append('g')
             .classed('item', true)
             .attr('background-color', 'grey')
-            .attr('transform', (d: { x: any; y: any; }) => `translate(${d.x},${d.y})`)
+            .attr('transform', (d: any) => `translate(${d.x},${d.y})`)
 
         items.append('circle')
             .attr('r', (d: { val: any; }) => d.val)
-            .style("fill", (v, index) => color[index])
+            .style("fill", (_v, index) => color[index])
 
         const innerG = items.append('g');
 
@@ -49,6 +49,8 @@ export const useBubbleChart = (postId: number, data: IBubbleChartData[]) => {
             .attr('font-size', '0.5rem')
 
 
-    }, [postId, JSON.stringify(data)]);
+    }, [postId,
+        // not nice workaround because data is array so react useEffect could not nice detect changes in data
+        JSON.stringify(data)]);
 
 }

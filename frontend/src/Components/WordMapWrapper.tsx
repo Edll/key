@@ -1,6 +1,6 @@
 import {IWordMapData, IWordMapEntry} from "../interfaces/IWordMapData.ts";
 import {WordMap} from "./WordMap.tsx";
-import React, {useMemo} from "react";
+import {useMemo} from "react";
 
 interface Props {
     data: IWordMapData | null;

@@ -1,6 +1,7 @@
 import {ActivationState, Client} from '@stomp/stompjs';
 import {IWordMapData} from "../interfaces/IWordMapData.ts";
 import {useCallback, useEffect, useState} from "react";
+import {WS_ENDPOINT} from "../index.tsx";
 
 export const useWebsocket = () => {
 
@@ -11,7 +12,7 @@ export const useWebsocket = () => {
 
     useEffect(() => {
         const _client = new Client({
-            brokerURL: 'ws://localhost:18080/wordmap',
+            brokerURL: WS_ENDPOINT,
             connectionTimeout: 1000,
             onConnect: () => {
                 _client.subscribe('/topic/word-map', message => {
