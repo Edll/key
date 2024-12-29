@@ -3,8 +3,7 @@ package de.edlly.key.services;
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
 import de.edlly.key.entities.store.WordMap;
-import de.edlly.key.services.listener.StoreListener;
-import org.springframework.beans.factory.annotation.Autowired;
+import de.edlly.key.services.listener.IStoreListener;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
@@ -16,20 +15,20 @@ import java.util.Optional;
 public class WordCountMapperStore {
 
     @Lazy
-    private final List<StoreListener> storeListeners;
+    private final List<IStoreListener> IStoreListeners;
 
     // Cache to prevent OOM failure
     private final Cache<Long, WordMap> cache = CacheBuilder.newBuilder().maximumSize(10000).build();
 
-    public WordCountMapperStore(List<StoreListener> storeListeners) {
-        this.storeListeners = storeListeners;
+    public WordCountMapperStore(List<IStoreListener> IStoreListeners) {
+        this.IStoreListeners = IStoreListeners;
     }
 
     public void addWordMap(WordMap wordMap) {
         cache.put(wordMap.getPost().getId(), wordMap);
 
-        if(storeListeners != null) {
-            storeListeners.forEach(StoreListener::onAddData);
+        if(IStoreListeners != null) {
+            IStoreListeners.forEach(IStoreListener::onAddData);
         }
     }
 

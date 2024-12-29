@@ -1,4 +1,4 @@
-package de.edlly.key.client.entities;
+package de.edlly.key.client.dto;
 
 import lombok.Getter;
 import lombok.Setter;

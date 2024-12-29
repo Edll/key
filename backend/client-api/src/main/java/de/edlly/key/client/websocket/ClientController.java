@@ -1,14 +1,13 @@
 package de.edlly.key.client.websocket;
 
-import de.edlly.key.client.entities.ClientWordMap;
+import de.edlly.key.client.adapter.ClientWordMapAdapter;
+import de.edlly.key.client.dto.ClientWordMap;
 import de.edlly.key.entities.store.WordMap;
-import de.edlly.key.entities.wp.Post;
 import de.edlly.key.entities.wp.Posts;
 import de.edlly.key.services.FetchPostsData;
 import de.edlly.key.services.PostProcessor;
 import de.edlly.key.services.WordCountMapperStore;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;
@@ -21,13 +20,17 @@ import java.util.Optional;
 @Slf4j
 public class ClientController {
 
-    @Autowired
-    FetchPostsData fetchPostsData;
-    @Autowired
-    PostProcessor postProcessor;
+    final FetchPostsData fetchPostsData;
 
-    @Autowired
-    WordCountMapperStore store;
+    final PostProcessor postProcessor;
+
+    final WordCountMapperStore store;
+
+    public ClientController(FetchPostsData fetchPostsData, PostProcessor postProcessor, WordCountMapperStore store) {
+        this.fetchPostsData = fetchPostsData;
+        this.postProcessor = postProcessor;
+        this.store = store;
+    }
 
     @MessageMapping("/init")
     @SendTo("/topic/word-map")
@@ -41,12 +44,16 @@ public class ClientController {
             log.info("Posts data: {}", postsData.get().size());
             postProcessor.process(postsData.get());
         }
+        return getWordMapData();
+    }
+
+    private Map<Long, ClientWordMap> getWordMapData() {
         Map<Long, ClientWordMap> data = new HashMap<>();
         store.getAllPostIdsInCache().forEach(id -> {
                     Optional<WordMap> wordMapOpt = store.getWordMap(id);
                     if (wordMapOpt.isPresent()) {
                         WordMap storeWordMap = wordMapOpt.get();
-                        ClientWordMap clientWordMap = storeWordMapToClientWordMap(storeWordMap);
+                        ClientWordMap clientWordMap = ClientWordMapAdapter.storeWordMapToClientWordMap(storeWordMap);
                         data.put(id, clientWordMap);
                     }
                 }
@@ -54,22 +61,4 @@ public class ClientController {
         return data;
     }
 
-    private ClientWordMap storeWordMapToClientWordMap(WordMap storeWordMap) {
-        ClientWordMap clientWordMap = new ClientWordMap();
-        Post post = storeWordMap.getPost();
-        if (post != null) {
-            clientWordMap.setPostId(storeWordMap.getPost().getId());
-            if (post.getDate() != null) {
-                clientWordMap.setPostDate(post.getDate().getTime());
-            }
-            clientWordMap.setPostLink(post.getLink());
-            if (post.getTitle() != null) {
-                clientWordMap.setPostTitle(post.getTitle().getRendered());
-            }
-        }
-        Map<String, Integer> words = storeWordMap.getWords();
-        clientWordMap.setWordMap(words);
-        clientWordMap.setWordCount(words.size());
-        return clientWordMap;
-    }
 }

@@ -19,6 +19,11 @@ export const useWebsocket = () => {
                         console.log(`Received: data`);
                     }
                 );
+                _client.subscribe('/topic/update-data', message => {
+                        setData(JSON.parse(message.body) as IWordMapData);
+                        console.log(`Received: update data`);
+                    }
+                );
                 _client.publish({destination: '/app/init', body: JSON.stringify({init: 1})});
             },
             onWebSocketError: (e,) => {
