@@ -27,7 +27,7 @@ public class PostsFetchScheduler {
         this.postProcessor = postProcessor;
     }
 
-  //  @Scheduled(fixedDelay = 5000)
+    @Scheduled(fixedDelay = 10000)
     public void scheduled() {
         log.info("Fetching posts");
         Optional<Posts> postsData = fetchPostsData.getPostsData();
