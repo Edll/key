@@ -9,15 +9,15 @@ interface Props {
 export const WordMap = ({wordMapEntry}: Props) => {
     const [expand, setExpand] = useState(false);
 
-
     return (
-        <div>
-            <h1>
-                <button onClick={() => setExpand(!expand)}>
-                    {wordMapEntry.postId} {wordMapEntry.postTitle}
-                </button>
-            </h1>
-            {expand && <WordMapDetails wordMapEntry={wordMapEntry}/>
+        <div className={'key-word-map'}>
+            <div
+                className={'key-word-map__header'}
+                onClick={() => setExpand(!expand)}>
+                {wordMapEntry.postTitle}
+            </div>
+            {expand &&
+                <WordMapDetails wordMapEntry={wordMapEntry} key={`post-details-${wordMapEntry.postId}`}/>
             }
         </div>
 

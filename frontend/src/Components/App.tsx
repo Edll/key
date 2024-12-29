@@ -1,28 +1,27 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {useWebsocket} from "../hooks/useWebsocket";
-import {IWordMapData, IWordMapEntry} from "../interfaces/IWordMapData";
-import {WordMap} from "./WordMap.tsx";
+import {WordMapWrapper} from "./WordMapWrapper.tsx";
 
 const App = () => {
 
-    const [wordMapData, setWordDataMap] = useState<IWordMapData | null>(null);
 
+    const websocket = useWebsocket();
 
-    const onDataReceive = (data: IWordMapData) => {
-        console.log(data);
-        setWordDataMap(data);
-    }
-
-    let websocket = useWebsocket(onDataReceive);
-
-    console.log("now This", wordMapData);
     return (
-        <div className="App">
-            <button onClick={() => websocket.send("Rest")}>Click</button>
-            {wordMapData !== null && Object.entries(wordMapData as IWordMapData).map(([, wordMapData]) =>
-                (<WordMap wordMapEntry={wordMapData as IWordMapEntry}/>
-                )
-            )}
+        <div className="key-app-root">
+
+            {!websocket.online ?
+                <div>
+                    <h1>Server Offline</h1>
+                    <button onClick={() => websocket.activateClient()}>Try Reconnect</button>
+                    {websocket.error && <p className="key-error">
+                        {websocket.error}
+                    </p>
+                    }
+                </div>
+                :
+                <WordMapWrapper data={websocket.data}/>
+            }
         </div>
     )
         ;

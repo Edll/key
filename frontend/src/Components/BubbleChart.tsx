@@ -23,7 +23,6 @@ export const BubbleChart = ({postId, data}: Props) => {
     useBubbleChart(postId, convertedData);
 
     return (<div style={{position: 'relative'}}>
-        <div  id={`bubble-chart-${postId}-tooltip`}/>
         <svg className={'key-bubble-chart'} id={`bubble-chart-${postId}`}/>
 
     </div>)
