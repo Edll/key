@@ -1,7 +1,9 @@
 import {ActivationState, Client} from '@stomp/stompjs';
 import {IWordMapData} from "../interfaces/IWordMapData.ts";
 import {useCallback, useEffect, useMemo, useState} from "react";
-import {WS_ENDPOINT} from "../index.tsx";
+import {WS_ENDPOINT} from "../statics.ts";
+
+
 
 export const useWebsocket = () => {
 

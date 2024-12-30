@@ -1,0 +1,1 @@
+export const WS_ENDPOINT = "ws://localhost:18080/wordmap";
