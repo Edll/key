@@ -48,9 +48,10 @@ export const useBubbleChart = (postId: number, data: IBubbleChartData[]) => {
             .attr('transform', 'translate(0, 16)')
             .attr('font-size', '0.5rem')
 
-
+     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [postId,
         // not nice workaround because data is array so react useEffect could not nice detect changes in data
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         JSON.stringify(data)]);
 
 }
