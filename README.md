@@ -31,4 +31,4 @@ de.edlly.key.wordpress.api.endpoint=https://thekey.academy/wp-json/wp/v2/posts
 
 ## Change backend endpoint or port
 
-change variable WS_ENDPOINT in index.tsx
+change variable WS_ENDPOINT in statics.ts
